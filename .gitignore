@@ -1,0 +1,19 @@
+# Ignore virtual environment
+venv/
+myworld/
+
+# Ignore Python bytecode
+*.pyc
+__pycache__/
+
+# Ignore Django migrations
+*/migrations/*
+
+# Ignore environment variables
+.env
+
+# Ignore database files
+*.sqlite3
+
+# Ignore any other system files
+.DS_Store
